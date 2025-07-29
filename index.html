@@ -1,46 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mobile App Landing</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <nav>
-      <h1>AppName</h1>
-      <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#download">Download</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="hero">
-      <h2>Discover the Next Big Thing</h2>
-      <p>Experience innovation on your mobile device.</p>
-      <a href="#download" class="cta">Get Started</a>
-    </div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FuelFriends</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <header class="bg-white shadow-md p-6 text-center text-2xl font-bold text-blue-600">
+      FuelFriends 🚀
+    </header>
 
-  <section id="features">
-    <h3>Key Features</h3>
-    <ul class="feature-list">
-      <li>🔥 Fast and responsive</li>
-      <li>🔒 Secure by design</li>
-      <li>🎨 Intuitive UI/UX</li>
-    </ul>
-  </section>
+    <main class="max-w-3xl mx-auto p-6">
+      <h2 class="text-xl font-semibold mb-4">Discover the Next Big Thing</h2>
+      <p class="mb-6">Experience innovation on your mobile device.</p>
+      <a href="#" class="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Get Started</a>
 
-  <section id="download">
-    <h3>Download Now</h3>
-    <p>Available on Android and iOS.</p>
-    <a href="#" class="store-btn">Google Play</a>
-    <a href="#" class="store-btn">App Store</a>
-  </section>
+      <section class="mt-10">
+        <h3 class="text-lg font-semibold mb-2">Key Features</h3>
+        <ul class="list-disc list-inside space-y-1">
+          <li>🔥 Fast and responsive</li>
+          <li>🔒 Secure by design</li>
+          <li>🎨 Intuitive UI/UX</li>
+        </ul>
+      </section>
 
-  <footer id="contact">
-    <p>&copy; 2025 AppName. All rights reserved.</p>
-  </footer>
-</body>
+      <section class="mt-10">
+        <h3 class="text-lg font-semibold mb-2">Download Now</h3>
+        <p>Available on Android and iOS.</p>
+        <div class="flex gap-4 mt-2">
+          <a href="#" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Google Play</a>
+          <a href="#" class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">App Store</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-12 text-center text-sm text-gray-500">
+      © 2025 FuelFriends. All rights reserved.
+    </footer>
+  </body>
 </html>
