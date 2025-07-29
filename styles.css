@@ -1,0 +1,118 @@
+You got it, Chad — here's a sleek, modern dark theme using **pure black (`#000`)** as the background and stylish contrast for text and UI elements. I’ve adjusted font weights, spacing, and colors for a clean yet high-impact look.
+
+---
+
+### 🎨 Updated `styles.css` (Pure Black Dark Theme)
+
+```css
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #000;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+  color: #00ffff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #f5f5f5;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00ffff;
+}
+
+.hero {
+  margin-top: 2rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #00ffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #00ffff;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-list li {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.store-btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #00ffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #000;
+  color: #666;
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #333;
+}
+```
+
+---
+
+Let me know if you want to add glowing effects, animated transitions, or adapt the color palette for your cybersecurity game’s aesthetic. This setup can easily shift into something cinematic or retro-inspired with just a few tweaks.
