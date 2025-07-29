@@ -1,2 +1,2 @@
-# fuelfriends
+# Fuel Friends
 Apple iOS Stickers
