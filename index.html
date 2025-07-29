@@ -4,40 +4,49 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fuel Friends</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
 </head>
-<body class="bg-gray-100 text-gray-900">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-  <!-- Dark Banner Top -->
-  <div class="bg-gray-900 h-32 flex items-center justify-center">
-    <img src="banner-image-url.jpg" alt="Fuel Friends Banner" class="h-24" />
-  </div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#page-top">Fuel Friends</a>
+    </div>
+  </nav>
 
-  <!-- Introduction -->
-  <div class="text-center p-6">
-    <h1 class="text-3xl font-bold mb-2">Welcome to Fuel Friends</h1>
-    <p class="text-lg">A fun-fueled iOS sticker experience to level up your messages 🚀</p>
-  </div>
+  <!-- Header -->
+  <header class="intro">
+    <div class="container">
+      <h1 class="brand-heading">Fuel Your Fun</h1>
+      <p class="intro-text">Meet the wildest sticker squad on iOS—Fuel Friends!</p>
+      <a href="#about" class="btn btn-circle scroll">
+        <i class="fa fa-angle-double-down"></i>
+      </a>
+    </div>
+  </header>
 
-  <!-- Image Grid -->
-  <div class="grid grid-cols-3 gap-4 px-6 py-4">
-    <div class="border rounded overflow-hidden"><img src="img1.jpg" alt="Pack 1" class="object-cover w-full h-32" /></div>
-    <div class="border rounded overflow-hidden"><img src="img2.jpg" alt="Pack 2" class="object-cover w-full h-32" /></div>
-    <div class="border rounded overflow-hidden"><img src="img3.jpg" alt="Pack 3" class="object-cover w-full h-32" /></div>
-    <div class="border rounded overflow-hidden"><img src="img4.jpg" alt="Pack 4" class="object-cover w-full h-32" /></div>
-    <div class="border rounded overflow-hidden"><img src="img5.jpg" alt="Pack 5" class="object-cover w-full h-32" /></div>
-    <div class="border rounded overflow-hidden"><img src="img6.jpg" alt="Pack 6" class="object-cover w-full h-32" /></div>
-    <div class="border rounded overflow-hidden"><img src="img7.jpg" alt="Pack 7" class="object-cover w-full h-32" /></div>
-    <div class="border rounded overflow-hidden"><img src="img8.jpg" alt="Pack 8" class="object-cover w-full h-32" /></div>
-    <div class="border rounded overflow-hidden"><img src="img9.jpg" alt="Pack 9" class="object-cover w-full h-32" /></div>
-  </div>
+  <!-- About Section -->
+  <section id="about" class="container content-section">
+    <h2>About</h2>
+    <p><strong>Fuel Friends</strong> is an iOS sticker pack bursting with personality—each character is a fuel-themed friend with something cheeky to say. Perfect for lighting up your group chats and expressing every quirky mood.</p>
+    <p>Fun. Fueled. Stickers with spark.</p>
+  </section>
 
-  <!-- App Store Button -->
-  <div class="text-center p-6">
-    <a href="YOUR_APP_STORE_LINK" class="bg-blue-600 text-white px-5 py-3 rounded-full shadow hover:bg-blue-700">
-      View on App Store
-    </a>
-  </div>
+  <!-- Contact Section -->
+  <section id="contact" class="container content-section text-center">
+    <h2>Contact</h2>
+    <p>For collabs, feedback, or just to say “vroom,” reach us at:</p>
+    <p><a href="mailto:your-email@domain.com">your-email@domain.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>&copy; Fuel Friends 2025</p>
+    </div>
+  </footer>
 
 </body>
 </html>
