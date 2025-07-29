@@ -3,55 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fuel Friends</title>
+    <title>Fuel Friends iOS</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      body {
-        font-family: 'Helvetica Neue', sans-serif;
-      }
-    </style>
   </head>
-  <body class="bg-black text-white">
-    <header class="text-center p-6 bg-black-900 border-black-800">
-      <div class="top-wrapper" style="padding:1.5rem 2.5rem; text-align:left;">
-      <h1 class="text-4xl font-bold tracking-wide">Fuel Friends</h1>
-      <h3 class="text-white-400 mt-2">An iOS Sticker Pack That Fuels Communication</h3>
-      <p class="text-gray-400 mt-2" style="text-wrap:balance;">Forget boring emojis—Fuel Friends fuels your chats with curated iOS sticker packs that pulse with personality. Whether you're dropping a cool cat into your convo or channeling your inner tech guru, these packs are designed with an attitude you can tap into.</p>
-      </div>
+  <body class="bg-white text-gray-800 font-sans">
+    <header class="text-center py-10 bg-gradient-to-r from-indigo-600 to-pink-500 text-white">
+      <h1 class="text-4xl font-bold">Fuel Friends</h1>
+      <p class="text-xl mt-2">A Fun Fueled iOS Sticker Packs</p>
     </header>
 
-    <main class="max-w-4xl mx-auto p-6">
-      <section class="mb-12 text-center">
-        <h2 class="text-2xl font-semibold mb-2">Fuel Friends v1</h2>
-        <p class="text-gray-400">Tap an image to preview the pack</p>
-
-        <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 mt-6">
-          <a href="#" class="group">
-            <img src="stickers/coolcat.png" alt="Cool Cat" class="rounded-lg transition transform group-hover:scale-105">
-            <p class="mt-2 text-sm text-gray-300">Cool Cat Pack</p>
-          </a>
-          <a href="#" class="group">
-            <img src="stickers/techguru.png" alt="Tech Guru" class="rounded-lg transition transform group-hover:scale-105">
-            <p class="mt-2 text-sm text-gray-300">Tech Guru Pack</p>
-          </a>
-          <a href="#" class="group">
-            <img src="stickers/snackattack.png" alt="Snack Attack" class="rounded-lg transition transform group-hover:scale-105">
-            <p class="mt-2 text-sm text-gray-300">Snack Attack</p>
-          </a>
-          <!-- Add more sticker previews as needed -->
+    <main class="max-w-6xl mx-auto p-6">
+      <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Repeat this block for each sticker pack -->
+        <div class="rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+          <img src="cool-cat.png" alt="Cool Cat Pack" class="w-full h-auto" />
+          <div class="p-4">
+            <h2 class="text-lg font-bold">Cool Cat</h2>
+            <p class="text-sm text-gray-600">Express your inner feline with style</p>
+            <a href="https://apps.apple.com/" target="_blank" class="mt-2 inline-block text-indigo-600 hover:underline">View on App Store</a>
+          </div>
         </div>
-      </section>
 
-      <section class="text-center mb-12">
-        <h3 class="text-xl font-semibold mb-2">Download on iOS</h3>
-        <p class="text-gray-400 mb-4">Install via the App Store</p>
-        <a href="#" class="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition">
-          View on App Store
-        </a>
+        <!-- Add more sticker packs below -->
+        <div class="rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+          <img src="tech-guru.png" alt="Tech Guru Pack" class="w-full h-auto" />
+          <div class="p-4">
+            <h2 class="text-lg font-bold">Tech Guru</h2>
+            <p class="text-sm text-gray-600">For the code whisperers and pixel perfectionists</p>
+            <a href="https://apps.apple.com/" target="_blank" class="mt-2 inline-block text-indigo-600 hover:underline">View on App Store</a>
+          </div>
+        </div>
+        <!-- Add more here -->
       </section>
     </main>
 
-    <footer class="text-center text-sm text-gray-600 border-t border-gray-800 p-6">
+    <footer class="text-center text-sm py-6 text-gray-500">
       © 2025 Fuel Friends. All art is original & exclusive.
     </footer>
   </body>
