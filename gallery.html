@@ -33,16 +33,20 @@
 
     .gallery {
       display: grid;
-      grid-template-columns: repeat(3, 150px);
-      gap: 3rem;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 1.5rem;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 2rem 1rem;
     }
 
+
     .gallery img {
-      width: 150px;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1;
       border-radius: 12px;
       object-fit: cover;
-      aspect-ratio: 1 / 1;
-      transition: transform 0.3s ease;
     }
 
     .gallery img:hover {
