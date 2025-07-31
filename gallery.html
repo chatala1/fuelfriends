@@ -37,9 +37,14 @@
       padding-bottom: 3rem;
     }
     .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(3, 150px); /* fixed-width columns */
+      gap: 1.5rem;
+      justify-content: center;
       margin: 0 auto;
-      text-align: center;
+      padding-bottom: 3rem;
     }
+
 
     .gallery img {
       width: 150px;
@@ -74,56 +79,34 @@
     <a href="/"><img src="images/fuelfriendslogo@2x.png" alt="Fuel Friends Logo" class="hero-header"></a>
   </header>
   <h1>v1 Pack – All Gassed Up!</h1>
+  <div class="gallery-container">
     <div class="gallery">
       <img src="assets/thumbs/pumpie-thumb.png" alt="Pumpie" />
       <img src="assets/thumbs/nate-thumb.png" alt="Nate" />
       <img src="assets/thumbs/sparky-thumb.png" alt="Sparky" />
-      <!-- Keep dropping those juicy designs -->
-    </div>
-
-    <div class="gallery">
       <img src="assets/thumbs/phrasepumped-thumb.png" alt="Pumpie" />
       <img src="assets/thumbs/phrasefire-thumb.png" alt="Nate" />
       <img src="assets/thumbs/phraseidea-thumb.png" alt="Sparky" />
-      <!-- Keep dropping those juicy designs -->
-    </div>
-
-    <div class="gallery">
       <img src="assets/thumbs/turbo-thumb.png" alt="Turbo" />
       <img src="assets/thumbs/crank-thumb.png" alt="Crank" />
       <img src="assets/thumbs/slick-thumb.png" alt="Slick" />
-      <!-- Keep dropping those juicy designs -->
-    </div>
-    
-     <div class="gallery">
       <img src="assets/thumbs/phraseblowit-thumb.png" alt="Turbo" />
       <img src="assets/thumbs/phrasefix-thumb.png" alt="Crank" />
       <img src="assets/thumbs/phraseroll-thumb.png" alt="Slick" />
-      <!-- Keep dropping those juicy designs -->
-    </div>
-
-    <div class="gallery">
       <img src="assets/thumbs/cone-thumb.png" alt="Cone" />
       <img src="assets/thumbs/slippy-thumb.png" alt="Slippy" />
       <img src="assets/thumbs/octane-thumb.png" alt="Octane" />
-      <!-- Keep dropping those juicy designs -->
-    </div>
-    
-     <div class="gallery">
       <img src="assets/thumbs/phraserisky-thumb.png" alt="Cone" />
       <img src="assets/thumbs/phraseslick2-thumb.png" alt="Slippy" />
       <img src="assets/thumbs/phrasehold-thumb.png" alt="Octane" />
-      <!-- Keep dropping those juicy designs -->
-    </div>
-    
-    <div class="gallery">
       <img src="assets/thumbs/nitro-thumb.png" alt="Rick" />
       <img src="assets/thumbs/phrasefine-thumb.png" alt="Rick" />
       <img src="images/fuelfriendslogo@2x.png"/>
       <!-- Keep dropping those juicy designs -->
     </div>
     <!-- Gallery Rows End -->
-
+  </div>
+  <!-- End Gallery Container -->
   <footer>
     <div class="footer-img">
         <a href="/"><img src="images/speedstickers-web.png" alt="@speedsticker"></a>
